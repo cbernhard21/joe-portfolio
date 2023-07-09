@@ -50,8 +50,6 @@ html {
   a {
     text-decoration: none;
     display: inline-block;
-  }
-  a:visited,a:link {
     color: var(--text-main);
   }
 
@@ -79,6 +77,10 @@ html {
     margin: 0 auto;
   }
 
+  .link-active {
+    color: var(--text-header);
+  }
+
   /* HEADER */
 .header-wrapper {
   background-color: var(--bg-header);
@@ -101,12 +103,10 @@ html {
 .nav-link {
   margin: 1rem;
   transition: color .2s ease-in;
-  
 }
 
 .nav-link:hover {
   color: var(--text-header);
-  ;
 }
 
   /* MAIN */
