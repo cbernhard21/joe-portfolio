@@ -100,10 +100,13 @@ html {
 
 .nav-link {
   margin: 1rem;
+  transition: color .2s ease-in;
+  
 }
 
 .nav-link:hover {
   color: var(--text-header);
+  ;
 }
 
   /* MAIN */
