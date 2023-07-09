@@ -1,7 +1,32 @@
+/* FONTS */
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto-light";
+  src: url("/fonts/Roboto/Roboto-Lights.ttf");
+}
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+
+
+
 /* VARIABLES */
 :root {
-    --text-color: #000000;
     --bg-color: #ffffff;
+    --bg-header: #6d6d6d;
+
+    --text-main: #1a1a1a;
+    --text-header: #f3f3f3;
+
+    --font-400: 'Roboto', helvetica, sans-serif;
+    --font-300: 'Roboto-light', helvetica, sans-serif;
+    --font-700: 'Roboto-bold', helvetica, sans-serif;
+
 }
 
 /* RESETS */
@@ -10,6 +35,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+    color: var(--text-main);
+    font-size: 62.5%;
+    font-family: var(--font-400);
+  }
+  
+  body {
+    min-height: 100vh;
+    font-size: 1.6rem;
+  }
 
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:visited,a:link {
+    color: var(--text-main);
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-700);
+  }
 
 /* MAIN LAYOUT */
+/* FORCES FOOTER TO STAY AT THE BOTTOM OF THE SCREEN NOT MATTER HOW MUCH OR LITTLE CONTENT IS IN THE MAIN */
+ 
+  .content {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* UTILITY CLASSES */
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  /* HEADER */
+.header-wrapper {
+  background-color: var(--bg-header);
+  width: 100%;
+}
+.header{
+    width: 95%;
+    padding: 1.4rem 0 1.4rem 0;
+    color: var(--text-header);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header .logo {
+  font-size: 3.6rem;
+}
+
+.nav-link {
+  margin: 1rem;
+}
+
+.nav-link:hover {
+  color: var(--text-header);
+}
+
+  /* MAIN */
+
+
+  /* FOOTER */
+  
