@@ -23,6 +23,8 @@
     --text-main: #1a1a1a;
     --text-header: #f3f3f3;
 
+    --bg-hero: #a0a0a0;
+
     --font-400: 'Roboto', helvetica, sans-serif;
     --font-300: 'Roboto-light', helvetica, sans-serif;
     --font-700: 'Roboto-bold', helvetica, sans-serif;
@@ -85,29 +87,95 @@ html {
     color: var(--text-header);
   }
 
+  .btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 1.75rem;
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    color: var(--text-header);
+    background-color: var(--text-main);
+    border: 2px solid var(--text-main);
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: var(--text-header);
+    color: var(--accent);
+    border: 2px solid var(--text-main);
+  }
+
   /* HEADER */
 .header-wrapper {
   background-color: var(--bg-header);
   width: 100%;
 }
-/* 
-
-
-
-.nav-link {
-  margin: 1rem;
-  transition: color .2s ease-in;
-}
-
-.nav-link:hover {
-  color: var(--text-header);
-} */
 
 .main-nav ul {
   display: flex;
 }
 
-  /* MAIN */
+/* MAIN */
+.main {
+  background-color: var(--bg-hero);
+}
+
+/*******************
+  HERO SECTION 
+*******************/
+.hero {
+  width: 95%;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-top: 5rem;
+}
+
+.hero h1 {
+  font: var(--font-300);
+  font-size: 10rem;
+  /* margin-bottom: 2rem; */
+}
+
+.hero h2 {
+  font: var(--font-300);
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 770px) {
+  .hero h1 {
+    font-size: 8rem;
+  }
+
+  .hero h2 {
+    font-size: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero h1 {
+    font-size: 6rem;
+  }
+
+  .hero h2 {
+    font-size: 2.6rem;
+  }
+}
+
+.button-container {
+  display: flex;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+  .button-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 
 
   /* FOOTER */

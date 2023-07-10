@@ -78,8 +78,8 @@ export function createHeader() {
         text-decoration: none;
         color: var(--text-main);
         display: inline-block;
-        letter-spacing: 1px;
-        text-transform: uppercase;
+        letter-spacing: 3px;
+        
       }
     
       ul {
