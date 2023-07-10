@@ -158,6 +158,7 @@ export function createHeader() {
         }
         nav a {
           font-size: 1.8rem;
+          color: var(--text-header);
         }
         .slide {
           transform: translateX(0);
