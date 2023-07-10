@@ -1,19 +1,19 @@
 export function createHeader() {
     let routes = [
       {
-        link: '/',
+        link: 'index',
         label: 'Home',
       },
       {
-        link: '/routes/projects',
+        link: 'projects',
         label: 'Projects',
       },
       {
-        link: '/routes/about',
+        link: 'about',
         label: 'About',
       },
       {
-        link: '/routes/contact',
+        link: 'contact',
         label: 'Contact',
       },
     ];
@@ -21,7 +21,7 @@ export function createHeader() {
     const navLinks = routes
       .map((route) => {
         return `
-        <li><a href="${route.link}" class="navLink">${route.label}</a></li>
+        <li><a href="${route.link}.html" class="navLink">${route.label}</a></li>
       `;
       })
       .join('');
@@ -173,7 +173,7 @@ export function createHeader() {
         }
       }         
       .active {
-        color: red;
+        color: var(--text-header);
       }
     </style>
 
@@ -216,8 +216,10 @@ export function createHeader() {
         console.log('active page ' + activePage);
         
         const mainNavLinks = this.shadowRoot.querySelectorAll('nav a');
+
+        console.log(mainNavLinks);
+
         mainNavLinks.forEach(link => {
-          console.log('link.href ' + link.href);
           if(link.href.includes(`${activePage}`)){
             link.classList.add('active');
           }
