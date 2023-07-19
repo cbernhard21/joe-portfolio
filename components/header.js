@@ -214,12 +214,8 @@ export function createHeader() {
         if(activePage === '/') {
           activePage = '/index.html';
         }
-
-        console.log('active page ' + activePage);
         
         const mainNavLinks = this.shadowRoot.querySelectorAll('nav a');
-
-        console.log(mainNavLinks);
 
         mainNavLinks.forEach(link => {
           if(link.href.includes(`${activePage}`)){

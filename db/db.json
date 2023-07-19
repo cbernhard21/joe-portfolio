@@ -1,0 +1,12 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "thumbnail": "/images/thumbnails/test.jpg",
+        "fullImage": "",
+        "title": "",
+        "details": "",
+        "rolloverInfo": ""
+      }
+    ]
+  }

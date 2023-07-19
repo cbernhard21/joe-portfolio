@@ -1,7 +1,8 @@
 import { createHeader } from "../components/header.js";
+import { generateProjects } from "/js/generateProjects.js";
 
-
-console.log('hello from app.js')
 
 createHeader();
+
+generateProjects();
 
