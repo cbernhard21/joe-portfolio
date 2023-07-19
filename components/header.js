@@ -1,19 +1,19 @@
 export function createHeader() {
     let routes = [
       {
-        link: 'index',
+        link: '/index',
         label: 'Home',
       },
       {
-        link: 'projects',
+        link: '/routes/projects',
         label: 'Projects',
       },
       {
-        link: 'about',
+        link: '/routes/about',
         label: 'About',
       },
       {
-        link: 'contact',
+        link: '/routes/contact',
         label: 'Contact',
       },
     ];
@@ -46,6 +46,7 @@ export function createHeader() {
   
       header {
         width: 95%;
+        height: 100%;
         padding: 1.4rem 0;
         margin: 0 auto;
         font-size: 1.6rem;
