@@ -4,7 +4,47 @@
         "id": "1",
         "thumbnail": "/images/thumbnails/test.jpg",
         "fullImage": "",
-        "title": "",
+        "title": "Project 1",
+        "details": "",
+        "rolloverInfo": ""
+      },
+      {
+        "id": "2",
+        "thumbnail": "/images/thumbnails/test.jpg",
+        "fullImage": "",
+        "title": "Project 2",
+        "details": "",
+        "rolloverInfo": ""
+      },
+      {
+        "id": "1",
+        "thumbnail": "/images/thumbnails/test.jpg",
+        "fullImage": "",
+        "title": "Project 3",
+        "details": "",
+        "rolloverInfo": ""
+      },
+      {
+        "id": "4",
+        "thumbnail": "/images/thumbnails/test.jpg",
+        "fullImage": "",
+        "title": "Project 4",
+        "details": "",
+        "rolloverInfo": ""
+      },
+      {
+        "id": "5",
+        "thumbnail": "/images/thumbnails/test.jpg",
+        "fullImage": "",
+        "title": "Project 5",
+        "details": "",
+        "rolloverInfo": ""
+      },
+      {
+        "id": "6",
+        "thumbnail": "/images/thumbnails/test.jpg",
+        "fullImage": "",
+        "title": "Project 6",
         "details": "",
         "rolloverInfo": ""
       }

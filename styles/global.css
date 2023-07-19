@@ -63,6 +63,10 @@ html {
     list-style-type: none;
   }
 
+  img {
+    width: 100%;
+  }
+
 /* MAIN LAYOUT */
 /* FORCES FOOTER TO STAY AT THE BOTTOM OF THE SCREEN NOT MATTER HOW MUCH OR LITTLE CONTENT IS IN THE MAIN */
  
@@ -178,6 +182,14 @@ html {
   }
 }
 
+
+/*******************
+  PROJECTS GRID 
+*******************/
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
 
   /* FOOTER */
   
