@@ -184,11 +184,49 @@ html {
 
 
 /*******************
-  PROJECTS GRID 
+  PROJECTS GRID AND CARD
 *******************/
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.projects-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-card-title {
+  position: absolute;
+  z-index: 1000;
+  color: red;
+  font-size: 3.6rem;
+  display: none;
+  /* border: 1px solid green; */
+  background-color: rgba(128, 128, 128, 0.5);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  transition: all .5s ease-in;
+}
+
+.projects-card-title:hover {
+  display: block;
+  color: blue;
+}
+
+.projects-card-img {
+  transition: all .5s ease-in;
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.projects-card-img:hover{
+  transform: scale(1.15);
+  cursor: pointer;
 }
 
   /* FOOTER */
