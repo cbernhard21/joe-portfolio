@@ -3,50 +3,53 @@
       {
         "id": "1",
         "thumbnail": "/images/thumbnails/test.jpg",
+        "description": "Description of project",
         "fullImage": "",
         "title": "Project 1",
-        "details": "",
-        "rolloverInfo": ""
+        "details": ""
       },
       {
         "id": "2",
         "thumbnail": "/images/thumbnails/test.jpg",
+        "description": "Description of project",
         "fullImage": "",
         "title": "Project 2",
-        "details": "",
-        "rolloverInfo": ""
+        "details": ""
       },
       {
         "id": "1",
         "thumbnail": "/images/thumbnails/test.jpg",
+        "description": "Description of project",
         "fullImage": "",
         "title": "Project 3",
-        "details": "",
-        "rolloverInfo": ""
+        "details": ""
       },
       {
         "id": "4",
         "thumbnail": "/images/thumbnails/test.jpg",
+        "description": "Description of project",
         "fullImage": "",
         "title": "Project 4",
-        "details": "",
-        "rolloverInfo": ""
+        "details": ""
+
       },
       {
         "id": "5",
         "thumbnail": "/images/thumbnails/test.jpg",
+        "description": "Description of project",
         "fullImage": "",
         "title": "Project 5",
-        "details": "",
-        "rolloverInfo": ""
+        "details": ""
+
       },
       {
         "id": "6",
         "thumbnail": "/images/thumbnails/test.jpg",
+        "description": "Description of project",
         "fullImage": "",
         "title": "Project 6",
-        "details": "",
-        "rolloverInfo": ""
+        "details": ""
+
       }
     ]
   }
