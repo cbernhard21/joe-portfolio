@@ -198,6 +198,7 @@ html {
 
 .projects-card-img {
   height: 100%;
+  scale: 1.02;
 }
 
 .projects-card-img:hover {
@@ -223,6 +224,7 @@ html {
 .projects-card-overlay > * {
   transform: translateY(40px);
   transition: transform 0.25s ease-out;
+  scale: .85;
 }
 
 .projects-card-overlay:hover {
@@ -242,8 +244,13 @@ html {
   font-size: 2.4rem;
 }
 
+.hover-animation {
+  transition: scale 0.5s;
+}
 
-
+.hover-animation:hover {
+  scale: 1.15;
+}
 
 
 
