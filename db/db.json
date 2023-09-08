@@ -2,23 +2,24 @@
     "projects": [
       {
         "id": "1",
-        "thumbnail": "/images/thumbnails/test.jpg",
+        "thumbnail": "/images/thumbnails/pool-problem.png",
         "description": "Description of project",
         "fullImage": "",
         "title": "Project 1",
-        "details": ""
+        "details": "",
+        "link": "project-1.html"
       },
       {
         "id": "2",
-        "thumbnail": "/images/thumbnails/test.jpg",
+        "thumbnail": "/images/thumbnails/weather-alert.png",
         "description": "Description of project",
         "fullImage": "",
         "title": "Project 2",
         "details": ""
       },
       {
-        "id": "1",
-        "thumbnail": "/images/thumbnails/test.jpg",
+        "id": "3",
+        "thumbnail": "/images/thumbnails/corona-historic.png",
         "description": "Description of project",
         "fullImage": "",
         "title": "Project 3",
@@ -26,7 +27,7 @@
       },
       {
         "id": "4",
-        "thumbnail": "/images/thumbnails/test.jpg",
+        "thumbnail": "/images/thumbnails/miller-lite.png",
         "description": "Description of project",
         "fullImage": "",
         "title": "Project 4",
@@ -35,7 +36,7 @@
       },
       {
         "id": "5",
-        "thumbnail": "/images/thumbnails/test.jpg",
+        "thumbnail": "/images/thumbnails/social.png",
         "description": "Description of project",
         "fullImage": "",
         "title": "Project 5",
@@ -44,10 +45,27 @@
       },
       {
         "id": "6",
-        "thumbnail": "/images/thumbnails/test.jpg",
+        "thumbnail": "/images/thumbnails/special-security.png",
         "description": "Description of project",
         "fullImage": "",
         "title": "Project 6",
+        "details": ""
+
+      },
+      {
+        "id": "7",
+        "thumbnail": "/images/thumbnails/doppler.png",
+        "description": "Description of project",
+        "fullImage": "",
+        "title": "Project 7",
+        "details": ""
+
+      },      {
+        "id": "8",
+        "thumbnail": "/images/thumbnails/news-app-promo.png",
+        "description": "Description of project",
+        "fullImage": "",
+        "title": "Project 8",
         "details": ""
 
       }

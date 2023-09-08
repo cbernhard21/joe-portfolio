@@ -9,7 +9,7 @@ export async function generateProjects() {
 
         let projectsHtml = projects.map((project) => {
             return `
-                <a href="#">
+                <a href="routes/projects/${project.link}">
                     <div class="projects-card">
                         <div class="hover-animation">
                         
