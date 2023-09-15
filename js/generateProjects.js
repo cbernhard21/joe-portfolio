@@ -7,13 +7,12 @@ export async function generateProjects() {
         const data = await response.json();
         const projects = data.projects;
 
+        //create project card for the grid on the home page
         let projectsHtml = projects.map((project) => {
             return `
-                <a href="routes/projects/${project.link}">
-                    <div class="projects-card">
+                <a href="#">
+                    <div class="projects-card" data-id=${project.id}>
                         <div class="hover-animation">
-                        
-                        
                         <img class="projects-card-img" src="${project.thumbnail}" alt="${project.title}" />    
                         <div class="projects-card-overlay">
                             <h2 class="projects-card-title">${project.title}</h2>
@@ -29,9 +28,20 @@ export async function generateProjects() {
 
         projectsGrid.innerHTML = projectsHtml;
 
+        //SELECT THE CLICKED LINK TO ADD THE ID TO LOCAL STORAGE TO PASS ALONG TO THE NEXT PAGE
+        const projectLinks = document.querySelectorAll('.projects-card');
+        projectLinks.forEach((link) => {
+            link.addEventListener('click', () => {
+                console.log(link.dataset.id);
+            })
+        })
+
+
     } catch (error) {
         console.log(error)
     }
 
-    
 }
+
+
+// routes/projects/project.html
