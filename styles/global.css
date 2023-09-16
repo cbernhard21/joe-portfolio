@@ -13,8 +13,6 @@
 }
 
 
-
-
 /* VARIABLES */
 :root {
     --bg-color: #ffffff;
@@ -74,11 +72,6 @@ html {
     min-height: 100vh;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: 0 auto;
   }
 
   /* UTILITY CLASSES */
@@ -183,9 +176,9 @@ html {
 }
 
 
-/*******************
+/*****************************
   PROJECTS GRID AND CARD
-*******************/
+******************************/
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -253,8 +246,19 @@ html {
 }
 
 
+/*****************************
+  PROJECT PAGE
+******************************/
+.project-container {
+  margin: 0 auto;
+  max-width: 1425px;
+}
 
+.project-title {
+  font-size: 5rem;
+  margin-top: 9rem;
 
+}
 
   /* FOOTER */
   

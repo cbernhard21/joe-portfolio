@@ -21,7 +21,10 @@ export async function getProjectDetails() {
                 
                 
                 const projectHtml = `
-                    <h1>${title}</h1>
+                    <section class="project-container">
+                        <h1 class="project-title">${title}</h1>
+                    </section>
+                    
                 
                 `;
 
@@ -44,7 +47,6 @@ export async function getProjectDetails() {
 
 }
 
-
 function checkStorage () {
     const projectId = localStorage.getItem('id')
     //check for ID, no id redirect to home page else return the ID
@@ -53,6 +55,5 @@ function checkStorage () {
     } else {
         return projectId;
     }
-    
-}
+};
 
